@@ -19,7 +19,7 @@
 
 I'm a data engineer with an MS in Business Analytics from UMass Amherst. I like taking messy, real-world data and turning it into something a business can actually trust — the projects below are the proof of that, not just the pitch. Currently open to full-time Data Engineering / Analytics Engineering roles.
 
-**Education:** MS, Business Analytics — University of Massachusetts Amherst
+**Education:** MS, Business Analytics — University of Massachusetts Amherst GPA:- 3.90
 
 ---
 
