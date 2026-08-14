@@ -3,9 +3,14 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/sai-vamsee"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:naddaguduru@umass.edu"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://svamsee-portfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/sai-vamsee"><img src="https://raw.githubusercontent.com/S-Vamsee/S-Vamsee/main/assets/icon-linkedin.svg" width="56" height="56" alt="LinkedIn" /></a>
+  &nbsp;&nbsp;
+  <a href="mailto:naddaguduru@umass.edu"><img src="https://raw.githubusercontent.com/S-Vamsee/S-Vamsee/main/assets/icon-email.svg" width="56" height="56" alt="Email" /></a>
+  &nbsp;&nbsp;
+  <a href="https://svamsee-portfolio.netlify.app/"><img src="https://raw.githubusercontent.com/S-Vamsee/S-Vamsee/main/assets/icon-portfolio.svg" width="56" height="56" alt="Portfolio" /></a>
+</p>
+<p align="center">
+  <sub>LinkedIn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Portfolio</sub>
 </p>
 
 ---
