@@ -1,5 +1,6 @@
-<h1 align="center">Hi, I'm Sai Vamsee 👋</h1>
-<p align="center">Data engineer — I build pipelines, then prove they're correct.</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/S-Vamsee/S-Vamsee/main/assets/header-banner.svg" width="100%" alt="Sai Vamsee — data engineer" />
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sai-vamsee"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -9,7 +10,17 @@
 
 ---
 
+### 👤 About
+
+I'm a data engineer with an MS in Business Analytics from UMass Amherst. I like taking messy, real-world data and turning it into something a business can actually trust — the projects below are the proof of that, not just the pitch. Currently open to full-time Data Engineering / Analytics Engineering roles.
+
+**Education:** MS, Business Analytics — University of Massachusetts Amherst
+
+---
+
 ### 🛰️ Live systems
+
+<img src="https://raw.githubusercontent.com/S-Vamsee/S-Vamsee/main/assets/live-indicator.svg" alt="systems online" />
 
 [![job-watch-bot](https://github.com/S-Vamsee/job-watch-bot/actions/workflows/daily-job-check.yml/badge.svg)](https://github.com/S-Vamsee/job-watch-bot/actions/workflows/daily-job-check.yml)
 [![finz-accounting-pipeline](https://github.com/S-Vamsee/finz-accounting-pipeline/actions/workflows/tests.yml/badge.svg)](https://github.com/S-Vamsee/finz-accounting-pipeline/actions/workflows/tests.yml)

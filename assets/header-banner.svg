@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 210" width="900" height="210">
+  <defs>
+    <filter id="glowName" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur">
+        <animate attributeName="stdDeviation" values="2.5;6;2.5" dur="2.5s" repeatCount="indefinite"/>
+      </feGaussianBlur>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowTravel" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#212a35"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="210" fill="#0d1117"/>
+  <rect width="900" height="210" fill="url(#dots)"/>
+
+  <!-- ambient traveling signal -->
+  <circle r="4" fill="#39d6ff" filter="url(#glowTravel)">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M40,45 L860,45"/>
+  </circle>
+  <line x1="40" y1="45" x2="860" y2="45" stroke="#1c2530" stroke-width="1"/>
+
+  <!-- name -->
+  <text x="450" y="112" text-anchor="middle" font-family="ui-monospace,Consolas,monospace"
+    font-size="46" font-weight="700" fill="#e6edf3" filter="url(#glowName)">
+    SAI VAMSEE <tspan fill="#39d6ff">_</tspan>
+  </text>
+
+  <!-- typewriter tagline -->
+  <clipPath id="typeClip">
+    <rect x="0" y="0" height="30">
+      <animate attributeName="width" values="0;0;586;586;0" keyTimes="0;0.02;0.33;0.83;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#typeClip)">
+    <text x="157" y="155" font-family="ui-monospace,Consolas,monospace" font-size="17" fill="#8b949e">
+      Data engineer — I build pipelines, then prove they're correct.
+    </text>
+  </g>
+
+  <!-- blinking cursor -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.32;0.34;0.83;0.85;1" dur="6s" repeatCount="indefinite"/>
+    <rect x="745" y="141" width="3" height="18" fill="#39d6ff">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
